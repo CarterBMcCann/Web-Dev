@@ -1,0 +1,37 @@
+
+body{
+    background-color: ghostwhite;
+    color: mediumseagreen;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: rgb(45, 157, 231);
+   font-family: monospace;
+   background-color: rgb(0, 0, 0);
+}
+
+.center
+{
+    text-align: center;
+}
+
+nav{
+    text-align: center;
+    background-color: rgb(243, 170, 170);
+    color: green;
+}
+
+img{
+    align-content: center;
+}
+
+.center-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+}
+

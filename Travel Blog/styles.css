@@ -1,0 +1,94 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    background-color: rgb(241, 72, 106);
+    color: white;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    padding: 10px;
+}
+
+nav{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+body{
+    background-color: rgb(115, 236, 236);
+}
+
+img{
+    float: left;
+    padding: 20px;
+    height: 200px;
+}
+
+.container{
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(245, 244, 203);
+    border: solid black 2px;
+    position: relative;
+    z-index: 5;
+
+}
+
+a:link{
+ color: white;
+}
+a:hover{
+    background-color: aquamarine;
+}
+a:visited{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+.absolute{
+    position: absolute;
+    bottom: -10px;
+    right: 0px;
+    width: 200px;
+    height: 120;
+    padding: 10px;
+    border: 2px solid black;
+    background-color: rgb(245, 244, 203);
+    color: cornflowerblue;
+    text-align: center;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    z-index: 10;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(241, 72, 106);
+    color: white;
+    padding: 20px;
+}
+
+.clearfix::after{
+    content:"";
+    clear: both;
+    display: table;
+}
+
+.scrolling{
+    overflow: auto;
+    width: 90px;
+    height: 80px;
+    margin: 0px;
+    padding: 0px;
+}

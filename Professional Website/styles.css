@@ -1,0 +1,69 @@
+*{
+    margin:0px;
+    padding: 0px;
+
+}
+
+nav{
+   border-style: solid;
+   background-color: violet;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   text-align: center;
+   
+}
+
+.Header{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 58, 58);
+    font-size: xx-large;
+}
+
+body{
+    background-color: salmon;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.Left{
+    float: left;
+}
+
+.Right{
+    float: right;
+}
+
+.Clearfix{
+    clear: both;
+}
+
+.textLeft{
+    text-align: left;
+}
+
+.textRight{
+    text-align: right;
+}
+
+h2{
+    color: white;
+}
+
+section{
+    border: 5px black;
+    border-style: solid;
+    padding: 5px 5px 5px 5px;
+}
+
+a{
+    outline-color: salmon;
+}
+
+a:visited{
+    color: black;
+}

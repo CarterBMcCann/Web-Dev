@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Style body with background image*/
+body{
+    background-color: grey;
+    background-image: url(images/pawsTile.png);
+}
+
+h1{
+    text-align: center;
+    font-size: xx-large;
+    color: blue;
+    background-color: aqua;
+}
+
+/*Style Nav Bar*/
+nav{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    margin-bottom: 10px;
+    
+}
+
+/*Makes the bottom nav bar float further down, while keeping the top stuck to the H1*/
+.bottomnav{
+    margin-top: 10px;
+}
+
+.container{
+    padding: 10px;
+    margin: auto;
+    background-color: cadetblue;
+    border: solid black 5px;
+    width: 80%;
+    height: 60%;
+    overflow: hidden;
+    
+}
+
+a:link{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    background-color: aqua;
+    text-decoration: none;
+    color: white;
+}
+
+a:visited{
+    text-decoration: none;
+    color: white;
+
+}   
+
+.imgRight{
+    float: right;
+    padding: 0px 10px 0px 0px;
+    height: 60%;
+}
+
+.clearFix{
+    clear: both;
+}
+
+.absolute{
+    position: absolute;
+    width: 20%;
+    height: 10%;
+    border: 3px solid black;
+    left: 5px;
+    bottom: 5px;
+    background-color: aqua;
+    color: blue;
+}
